@@ -1,0 +1,195 @@
+    @media screen and (max-width: 552px) {
+        .regna {
+            font-size: 10px;
+            margin-top: 0;
+            /* position: absolute; */
+            text-align: center;
+        }
+    }
+    
+    /* @media screen and (min-width: 1400px) {
+        .team-regna {
+            display: grid;
+            grid-template-columns: auto auto;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .portfolios {
+            display: grid;
+            grid-template-columns: auto auto;
+            justify-content: center;
+            column-gap: 60px;
+        }
+        .first a {
+            visibility: visible;
+        }
+    } */
+    
+    @media screen and (max-width: 1024px) {
+        .fa-bars {
+            visibility: visible;
+            font-size: 30px;
+            color: white;
+            right: 0;
+            position: absolute;
+            margin-top: 14px;
+            display: block;
+        }
+        .navbar {
+            /* flex-direction: column; */
+            position: relative;
+        }
+        .first {
+            display: none;
+            background: rgba(255, 255, 255, 0.8);
+            position: absolute;
+            flex-direction: column;
+            width: 50%;
+            top: 50px;
+            left: 340px;
+        }
+        .dropdown {
+            /* visibility: hidden; */
+            margin: auto;
+            color: black;
+        }
+        .dropdown .dropbtn {
+            bottom: 50px;
+        }
+        .dropdown-content {
+            display: none;
+        }
+        .dropdown-content:hover {
+            display: block;
+            /* visibility: visible; */
+        }
+        .navbar-fa {
+            display: none;
+        }
+        .team-regna {
+            display: grid;
+            grid-template-columns: auto;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .social {
+            margin: auto;
+            width: 40px;
+            color: grey;
+        }
+    }
+    
+    /* @media screen and (min-width: 1366px) {
+        .about-us {
+            display: flex;
+            flex-direction: column;
+            margin: 15px;
+        }
+        .num {
+            display: grid;
+            grid-template-columns: auto auto;
+            row-gap: 20px;
+            text-align: center;
+        }
+        .serve-gd {
+            display: grid;
+            grid-template-columns: auto auto;
+            text-align: center;
+        }
+        /* .pic {
+            background-attachment: scroll;
+        } 
+        .act {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+        .action {
+            margin-top: 40px;
+        }
+        .call-to-action {
+            margin-right: 120px;
+        }
+    } 
+    
+    @media screen and (max-width: 1132px) {
+        /* .regna {
+        font-size: 10px;
+        margin-bottom: 60px;
+        position: absolute;
+        text-align: center;
+    } */
+        /* .action {
+            margin-top: 10px;
+        } */
+    
+    
+    @media screen and (max-width: 1204px) {
+        .about-us {
+            display: flex;
+            flex-direction: column;
+            margin: 15px;
+        }
+        .portfolios {
+            display: grid;
+            grid-template-columns: auto auto;
+            justify-content: center;
+            column-gap: 60px;
+        }
+        .team-regna {
+            display: grid;
+            grid-template-columns: auto auto;
+            text-align: center;
+            margin-top: 20px;
+        }
+    }
+
+    @media screen and (max-width: 820px){
+        .serve-gd {
+            display: grid;
+            grid-template-columns: auto auto;
+            text-align: center;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        .fa-bars {
+            visibility: visible;
+            font-size: 30px;
+            color: white;
+            justify-content: flex-end;
+            position: absolute;
+            margin-top: 14px;
+            display: block;
+        }
+        .navbar-fa {
+            display: none;
+        }
+        .serve-gd {
+            display: grid;
+            grid-template-columns: auto;
+            text-align: center;
+        }
+        .portfolios {
+            display: grid;
+            grid-template-columns: auto;
+            justify-content: center;
+            column-gap: 60px;
+        }
+        .team-regna {
+            display: grid;
+            grid-template-columns: auto;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .bret {
+            display: grid;
+            grid-template-columns: auto;
+            text-align: center;
+            margin-top: 22px;
+        }
+        .links {
+            margin-right: 140px;
+            margin-top: 22px;
+        }
+    }
